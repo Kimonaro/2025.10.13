@@ -99,7 +99,7 @@ public class Inimigo : Personagem
         audioSource.Play();
     }
 
-    public void desative()
+    public void Desative()
     {
         //desativa quando bate no player
          gameObject.SetActive(false);
