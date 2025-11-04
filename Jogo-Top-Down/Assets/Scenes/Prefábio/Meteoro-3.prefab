@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.53, y: -0.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3382484075167967691}
@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc9d1ff2c0629b49b02e0af7a792741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 8
-  vida: 8
+  velocidade: 5
+  vida: 1
   energia: 45
   dano: 1
   raioDeVisao: 160.4

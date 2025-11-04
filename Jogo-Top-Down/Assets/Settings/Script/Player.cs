@@ -20,20 +20,7 @@ public class Player : Personagem
     {
         andando = false;
         
-        if (arma.rotation.eulerAngles.z > -90 
-            && arma.rotation.eulerAngles.z < 90)
-        {
-            spriteRenderer.flipX = false;
-        }
         
-        if (arma.rotation.eulerAngles.z > 90 
-            && arma.rotation.eulerAngles.z < 270)
-        {
-            spriteRenderer.flipX = true;
-        }
-
-
-
 
         if (Input.GetKey(KeyCode.W))
         {
@@ -70,6 +57,6 @@ public class Player : Personagem
             //gameObject.SetActive(false);
         }
         
-        animator.SetBool("Andando", andando);
+       // animator.SetBool("Andando", andando);
     }
 }

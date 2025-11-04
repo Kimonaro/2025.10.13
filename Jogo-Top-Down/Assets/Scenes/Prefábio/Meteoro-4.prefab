@@ -234,8 +234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc9d1ff2c0629b49b02e0af7a792741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 8
-  vida: 8
+  velocidade: 4
+  vida: 1
   energia: 45
   dano: 1
   raioDeVisao: 154.22

@@ -74,15 +74,16 @@ public class Inimigo : Personagem
 
         if (getVida() <= 0)
         {
-            animator.SetTrigger("Morte");
+          //  animator.SetTrigger("Morte");
+          Destroy(gameObject);
         }
         
-        animator.SetBool("Andando",andando);
+      //  animator.SetBool("Andando",andando);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Bala") )
         {
             // Causa dano ao Player
             int novaVida = collision.gameObject.GetComponent<Personagem>().getVida() - getDano();
@@ -91,6 +92,7 @@ public class Inimigo : Personagem
             //collision.gameObject.GetComponent<Personagem>().recebeDano(getDano());
             
             setVida(0);
+           
         }
     }
 
