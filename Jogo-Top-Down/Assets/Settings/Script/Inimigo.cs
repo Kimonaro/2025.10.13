@@ -9,8 +9,6 @@ public class Inimigo : Personagem
 
     [SerializeField] private Transform posicaoDoPlayer;
     
-    private SpriteRenderer spriteRenderer;
-    private Animator animator;
 
     private AudioSource audioSource;
     
@@ -28,8 +26,6 @@ public class Inimigo : Personagem
 
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
         
         audioSource = GetComponent<AudioSource>();
         
@@ -47,16 +43,6 @@ public class Inimigo : Personagem
 
         if (getVida() > 0)
         {
-            if (posicaoDoPlayer.position.x - transform.position.x > 0)
-            {
-                spriteRenderer.flipX = false;
-            }
-
-            if (posicaoDoPlayer.position.x - transform.position.x < 0)
-            {
-                spriteRenderer.flipX = true;
-            }
-
 
             if (posicaoDoPlayer != null &&
                 Vector3.Distance(posicaoDoPlayer.position, transform.position) <= raioDeVisao)
