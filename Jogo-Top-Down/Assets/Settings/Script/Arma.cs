@@ -5,7 +5,7 @@ public class Arma : MonoBehaviour
     public Transform saidaDoTiro;
     
     public GameObject bala;
-    public float intevaloDeDisparo = 0.2f;
+    public float intevaloDeDisparo = 0.5f;
     
     private float tempoDeDisparo = 0;
     

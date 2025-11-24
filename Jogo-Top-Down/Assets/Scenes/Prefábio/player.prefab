@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 454885062637592998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 89.92755}
-  m_LocalScale: {x: 0.021867532, y: 0.021867532, z: 0.021867529}
+  m_LocalScale: {x: 0.0125900125, y: 0.0125900125, z: 0.012590011}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7251412766585556333}
@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.24947365, y: 0.44008404}
+  m_AnchoredPosition: {x: -0.01, y: -0.34}
   m_SizeDelta: {x: 1101, y: 619}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &9052163246835013767
@@ -61,7 +61,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 52
   m_TargetDisplay: 0
 --- !u!114 &6622936117142316483
 MonoBehaviour:
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!1 &760225462142164604
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saidaDoTiro: {fileID: 4458980536407385218}
   bala: {fileID: 3121936064619982177, guid: a3cfad779d85c704380642bbc5b19fb3, type: 3}
-  intevaloDeDisparo: 0.2
+  intevaloDeDisparo: 0.5
   cursor: {fileID: 2415000363761733781}
 --- !u!1 &2415000363761733781
 GameObject:
