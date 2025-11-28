@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dano: 1
-  velocidade: 10.64
+  velocidade: 30
 --- !u!50 &2756398164932073871
 Rigidbody2D:
   serializedVersion: 5
@@ -178,8 +178,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4283769360672713106, guid: 84a3278b9f726fb418f816f9c1793e68, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 90e3c39b9bd127749ae5273600522340, type: 3}
-  m_Resource: {fileID: 8300000, guid: 90e3c39b9bd127749ae5273600522340, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1d4513571c59c114ca40b071771c87b5, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1d4513571c59c114ca40b071771c87b5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

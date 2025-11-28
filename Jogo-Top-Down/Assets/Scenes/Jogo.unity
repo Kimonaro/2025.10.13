@@ -2047,18 +2047,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1313138516451018426, guid: a3cfad779d85c704380642bbc5b19fb3, type: 3}
-      propertyPath: velocidade
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561039842161628092, guid: a3cfad779d85c704380642bbc5b19fb3, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 1d4513571c59c114ca40b071771c87b5, type: 3}
-    - target: {fileID: 1561039842161628092, guid: a3cfad779d85c704380642bbc5b19fb3, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1d4513571c59c114ca40b071771c87b5, type: 3}
     - target: {fileID: 3121936064619982177, guid: a3cfad779d85c704380642bbc5b19fb3, type: 3}
       propertyPath: m_Name
       value: Bala
